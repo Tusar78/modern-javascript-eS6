@@ -42,15 +42,29 @@ ask(
 
 
 // ES6 Arrow function Object Solution
-const javascript = {
-  name: 'JavaScript',
-  libraries: ['React', 'Angular', 'Vue'],
-  printLibraries: function () {
-    console.log(this);
-    this.libraries.forEach(library => {
-      console.log(`${this.name} Loves ${library}`);
-    })
-  }
+// const javascript = {
+//   name: 'JavaScript',
+//   libraries: ['React', 'Angular', 'Vue'],
+//   printLibraries: function () {
+//     console.log(this);
+//     this.libraries.forEach(library => {
+//       console.log(`${this.name} Loves ${library}`);
+//     })
+//   }
+// }
+
+// javascript.printLibraries();
+
+const search = document.querySelector('.search');
+const display = document.querySelector('.display');
+const thanks = document.querySelector('.thanks');
+
+function show () {
+  display.innerText = this.value;
+
+  setTimeout(function () {
+    thanks.innerHTML = `You have typed: ${this.value}`;
+  }, 1000)
 }
 
-javascript.printLibraries();
+search.addEventListener('keyup', show);
