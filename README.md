@@ -42,3 +42,19 @@ welcome();
 
 javascript.printLibraries();
 ````
+
+---
+
+# Explore Array
+
+> Simple Array Example:
+> `const fruits = ["Apple", "Orange", "Plum"];`
+
+## Get last elements with “at”
+> A recent addition
+> This is a recent addition to the language. Old browsers may need polyfills.
+
+- Let’s say we want a last element of the array.
+- Some programming languages allow to use negative indexes for the same purpose, like `fruits[-1]`.
+- Although, in JavaScript it won’t work. The result will be `undefined`, because the index in square brackets is treated literally.
+- We can explicitly calculate the last element index and then access it: `fruits[fruits.length - 1]`.
