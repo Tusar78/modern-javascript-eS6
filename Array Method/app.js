@@ -7,5 +7,6 @@ const info = {
   }
 }
 
-const { owner } = info;
-console.log(owner);
+// const { owner } = info;
+const { owner : founderOfJS } = info;
+console.log(founderOfJS);
