@@ -8,5 +8,6 @@ const info = {
 }
 
 // const { owner } = info;
-const { owner : founderOfJS } = info;
-console.log(founderOfJS);
+// const { owner : founderOfJS } = info;
+const { name } = info.engine;
+console.log(name);
