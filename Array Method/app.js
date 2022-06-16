@@ -10,5 +10,6 @@ const info = {
 // const { owner } = info;
 // const { owner : founderOfJS } = info;
 // const { name } = info.engine;
-const { engine : { name } } = info;
-console.log(name);
+// const { engine : { name } } = info;
+const { engine : { name : engineName} } = info;
+console.log(engineName);
