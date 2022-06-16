@@ -18,5 +18,10 @@ const info = {
 // const { engine : { name : engineName} } = info;
 
 // If data is not available as property name
-const { engine: { name: engineName } = {} } = info;
-console.log(engineName);
+// const { engine: { name: engineName } = {} } = info;
+// console.log(engineName);
+
+// Now we can explore array destructuring
+const numbers = [1, 2, 3, 4, 5];
+const [a, b] = numbers;
+console.log(a, b);
