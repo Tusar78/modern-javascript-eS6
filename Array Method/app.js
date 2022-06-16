@@ -23,5 +23,8 @@ const info = {
 
 // Now we can explore array destructuring
 const numbers = [1, 2, 3, 4, 5];
-const [a, b] = numbers;
+// const [a, b] = numbers;
+
+// I need specific number from an array
+const [, a, , , b] = numbers;
 console.log(a, b);
