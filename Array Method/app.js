@@ -32,11 +32,18 @@ const info = {
 
 
 // Old way swapping 
+// let a = 10;
+// let b = 20;
+// console.log(a, b);
+// let temp;
+// temp = b;
+// a = temp;
+// b = a;
+// console.log(a, b);
+
+// New way swapping using array destructuring
 let a = 10;
 let b = 20;
 console.log(a, b);
-let temp;
-temp = b;
-a = temp;
-b = a;
+[a, b] = [b, a];
 console.log(a, b);
