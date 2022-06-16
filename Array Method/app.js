@@ -22,10 +22,21 @@ const info = {
 // console.log(engineName);
 
 // Now we can explore array destructuring
-const numbers = [1, 2, [3, 100, 500], 4, 5];
+// const numbers = [1, 2, [3, 100, 500], 4, 5];
 // const [a, b] = numbers;
 
 // I need specific number from an array
 // const [, a, , , b] = numbers;
-const [, , [, , a], , b] = numbers;
+// const [, , [, , a], , b] = numbers;
+// console.log(a, b);
+
+
+// Old way swapping 
+let a = 10;
+let b = 20;
+console.log(a, b);
+let temp;
+temp = b;
+a = temp;
+b = a;
 console.log(a, b);
