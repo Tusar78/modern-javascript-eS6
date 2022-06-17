@@ -19,4 +19,10 @@ const mySet = new Set();
 
 // Chaining Add
 mySet.add(1).add(2).add(3).add('Tusar');
+
+// Delete element
+mySet.delete('Tusar');
+
+// Element available or not
+console.log(mySet.has('Tusar'));
 console.log(mySet);
