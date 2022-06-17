@@ -58,3 +58,17 @@ javascript.printLibraries();
 - Some programming languages allow to use negative indexes for the same purpose, like `fruits[-1]`.
 - Although, in JavaScript it won’t work. The result will be `undefined`, because the index in square brackets is treated literally.
 - We can explicitly calculate the last element index and then access it: `fruits[fruits.length - 1]`.
+
+
+# Explore Array Method
+
+## `CopyWithin(target, start, end)`
+
+> Some features of `copyWithin()` method
+
+- target is required
+- start defaults to 0
+- end defaults to array.length
+- never changes array.length
+- overwrites original array
+- returns modified array
