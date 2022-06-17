@@ -40,6 +40,12 @@ mySet.delete("Tusar");
 // const friendsArray = [...friends];
 // console.log(friendsArray);
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 5, 3, 4, 9];
-const filteredArray = new Set(numbers);
-console.log(...filteredArray);
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 5, 3, 4, 9];
+// const filteredArray = new Set(numbers);
+// console.log(...filteredArray);
+
+const a = new Set([1, 2, 3]);
+const b = new Set([4, 3, 2]);
+
+const union = new Set([...a, ...b]);
+console.log(union);
