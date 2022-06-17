@@ -24,5 +24,8 @@ mySet.add(1).add(2).add(3).add('Tusar');
 mySet.delete('Tusar');
 
 // Element available or not
-console.log(mySet.has('Tusar'));
-console.log(mySet);
+// console.log(mySet.has('Tusar'));
+// mySet.clear();
+console.log(mySet.keys());
+console.log(mySet.values());
+console.log(mySet.entries());
