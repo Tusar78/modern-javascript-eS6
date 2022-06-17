@@ -35,7 +35,11 @@ mySet.delete("Tusar");
 // console.log(numbersSet);
 
 // Set to array
-const friends = new Set();
-friends.add('Rakib').add('Sharif').add('Selim').add('Shovon');
-const friendsArray = [...friends];
-console.log(friendsArray);
+// const friends = new Set();
+// friends.add('Rakib').add('Sharif').add('Selim').add('Shovon');
+// const friendsArray = [...friends];
+// console.log(friendsArray);
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 5, 3, 4, 9];
+const filteredArray = new Set(numbers);
+console.log(...filteredArray);
