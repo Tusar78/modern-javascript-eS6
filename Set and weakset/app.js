@@ -30,6 +30,12 @@ mySet.delete("Tusar");
 // console.log(mySet.entries());
 
 // Array to Set
-const numbers = [1, 2, 3, 4, 5];
-const numbersSet = new Set(numbers);
-console.log(numbersSet);
+// const numbers = [1, 2, 3, 4, 5];
+// const numbersSet = new Set(numbers);
+// console.log(numbersSet);
+
+// Set to array
+const friends = new Set();
+friends.add('Rakib').add('Sharif').add('Selim').add('Shovon');
+const friendsArray = [...friends];
+console.log(friendsArray);
