@@ -15,5 +15,8 @@ arrConstructor[1] = 'Rakib';
 const mySet = new Set();
 
 // Add data in Set dataStructure
-mySet.add('Tusar')
+// mySet.add('Tusar');
+
+// Chaining Add
+mySet.add(1).add(2).add(3).add('Tusar');
 console.log(mySet);
